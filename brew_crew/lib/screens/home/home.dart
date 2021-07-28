@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
           actions: <Widget>[
             TextButton.icon(
                 onPressed: () async {
-                  await _auth.SignOut();
+                  await _auth.signOut();
                 },
                 icon: Icon(Icons.person),
                 label: Text('logout'))
